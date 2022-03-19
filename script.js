@@ -57,7 +57,18 @@ const personalMovieDB = {
 
   writeYourGenres: function () {
     for (let i = 0; i <= 3; i++) {
-      personalMovieDB.genres[i - 1] = prompt(`Your favorite genre by number is ${i}`);
+      let genre = prompt(`Your favorite genre number is ${i}`);
+
+      if (genre === '' || genre == null) {
+        console.log('Empty or incorrect data');
+        i--;
+      } else {
+        personalMovieDB.genres[i - 1] = genre;
+      }
     }
+
+    personalMovieDB.genres.forEach((item, i) => {
+      console.log(`Favorite genre ${i + 1} - is ${item}`);
+    });
   },
 };
