@@ -22,10 +22,10 @@ export default class Slider {
   }
 }
 
-// const slider1 = new Slider(600, 400, 5);
-// const slider2 = new Slider(500, 300, 15);
-// slider1.whoAmI();
-// slider2.whoAmI();
+const slider1 = new Slider(600, 400, 5);
+const slider2 = new Slider(500, 300, 15);
+slider1.whoAmI();
+slider2.whoAmI();
 
 class AutoSlider extends Slider {
   constructor(width, height, count, auto) {
@@ -37,8 +37,8 @@ class AutoSlider extends Slider {
   }
 }
 
-// const slider3 = new AutoSlider(200, 100, 4, true);
-// slider3.whoAmI();
-// slider3.play();
+const slider3 = new AutoSlider(200, 100, 4, true);
+slider3.whoAmI();
+slider3.play();
 
 export { button };
