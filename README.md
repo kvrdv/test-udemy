@@ -8,4 +8,4 @@
 
 4. [Warning: Each child in a list should have a unique "key" prop](https://stackoverflow.com/questions/55153873/warning-each-child-in-a-list-should-have-a-unique-key-prop)
 
-- [Lists and Keys in Documentation](https://reactjs.org/docs/lists-and-keys.html#keys)
+- [> in docs](https://reactjs.org/docs/lists-and-keys.html#keys)
